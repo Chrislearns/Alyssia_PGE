@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+/*CSS Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a,
+ abbr, acronym, address, big, cite, code, del,
+dfn, em, img, ins, kbd, q, s, samp, small,
+ strike, strong, sub, sup, tt, var, b, u, i,
+ center, dl, dt, dd, ol, ul, li, fieldset,
+ form, label, legend, table, caption, tbody,
+tfoot, thead, tr, th, td, article, aside, canvas,
+ details, embed, figure, figcaption, footer, header,
+  hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  font-family: 'Lato', sans-serif !important;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+html, body, div, span, applet, object, iframe, h1,
+h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr,
+acronym, address, big, cite, code, del, dfn, em,
+font, img, ins, kbd, q, s, samp, small, strike,
+strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, table, caption, tbody,
+tfoot, thead, tr, th, td {
+font-family: 'Lato', sans-serif !important;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+  -webkit-text-size-adjust: 100%;
+}
+
+
+
+html, body {
+  background-color: #C4C3C7;
+  height: 100%;
+}
+
+#icon {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  bottom: 60px;
+  right: 50%;
+
+}
+header {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+  background-color: #C4C3C7;
+}
+
+a {
+  color:black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:link {
+  color: black;
+}
+
+a:hover {
+  color: inherit;
+  text-decoration: underline;
+}
+
+.candidate {
+  border-radius: 250px;
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+
+}
+
+#overlay {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  top: 0;
+  left: 0;
+  position: relative;
+}
+
+.head {
+  width: 100%;
+  height: inherit;
+  text-align: center;
+  z-index: 100;
+}
+.hire {
+  font-size: 3em;
+
+}
+
+#logo {
+  background: url(windenergy.jpg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  top: 0;
+  left: 0;
+  opacity: .5;
+height: 100%;
+width: 100%;
+}
+
+#menu-icon {
+  background: url(menu-icon.png);
+  width: 32px;
+  height: 32px;
+  display: none;
+}
+.info {
+ background-color: #E8E8E8;
+}
+.speech {
+  font-size: 1.6em;
+  text-align: center;
+}
+.headline{
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 3%;
+  color: black;
+  z-index: 200;
+  font-size: 1.4em;
+
+}
+
+@media only screen and (max-device-width: 1024px) {
+  .logo {
+    background-attachment: scroll;
+  }
+}
